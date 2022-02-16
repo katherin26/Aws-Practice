@@ -20,4 +20,18 @@ function newS3Client() {
   return new s3({ params: { Bucket: env.get("BUCKET").required() } });
 }
 
+function getAuthor() {
+  return "anonymous";
+}
+
+async function writeMessage(s3, message, author) {
+  const namespace = v5(author, v5.URL);
+  const id = v5(message, namespace);
+  const date = new Date();
+  const Key = `${ninesComplement(date)}/${id}`;
+  const body = { message, date: date.toISOString(), author };
+  await s3.put_object({ Key, Body: JSON.stringify(body) });
+  return body;
+}
+
 module.exports.lambdaHandler = serverless(app);
