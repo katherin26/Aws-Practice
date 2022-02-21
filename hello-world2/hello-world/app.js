@@ -8,10 +8,27 @@ const s3 = require("aws-sdk/clients/s3");
 const v5 = require("uuid/v5");
 const env = require("env-var");
 const bodyParser = require("body-parser");
+const persons = [
+  { name: "kt", favoriteFood: "orange", city: "Miami" },
+  { name: "JIll", favoriteFood: "Henna", city: "Miami" },
+];
 
 const app = new express();
 
-app.get("/", (err, _, res, _) => {
+app.get("/", (req, res) => {
+  res.send("Hello World");
+});
+
+app.get("/persons", (req, res) => {
+  res.json(persons);
+});
+
+app.get("/persons/:id", (req, res) => {
+  const id = req.params.id;
+  res.json(persons[id]);
+});
+
+app.use("/", (err, _, res, _) => {
   console.log(err);
   res.status(500).json({ message: "Internal Server Error" });
 });
@@ -32,6 +49,26 @@ async function writeMessage(s3, message, author) {
   const body = { message, date: date.toISOString(), author };
   await s3.put_object({ Key, Body: JSON.stringify(body) });
   return body;
+}
+
+async function getMessages(client, maxItems, token) {
+  const { Contents, NextContinuationToken } = await client
+    .listObjectsV2({
+      MaxKeys: maxItems,
+      ContinuationToken: token || new Buffer(token, "base64").toString("ascii"),
+    })
+    .promise();
+
+  const res = await Promise.all(
+    Contents.map(({ Key }) => client.getObject({ Key }).promise())
+  );
+
+  return {
+    Items: res.map(({ Body }) => JSON.parse(Body)),
+    NextToken:
+      NextContinuationToken ||
+      new Buffer(NextContinuationToken, "ascii").toString("base64"),
+  };
 }
 
 module.exports.lambdaHandler = serverless(app);
