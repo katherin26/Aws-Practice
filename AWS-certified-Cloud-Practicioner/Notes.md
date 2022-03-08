@@ -27,3 +27,28 @@ Now for the clients to find the server and the server to find the clients, you n
 so a client have IP addresses and a server also have an IP address. And the idea is that when you use an
 IP address, you can send a request to whatever you want to the server you want and the server can know
 how to find you back.
+
+2. **WHAT IS A SERVER COMPOSED OF?**
+
+Well a server is going to contain a CPU:
+
+- Compute: CPU = this CPU is a little piece what will be doing some computations, it will very helpful to do some calculations and find results.
+- Memory: RAM = Your server also needs RAM, or Memory this is going to be very, very fast memory.
+  which will allow us to store information and retreive it very quickly.
+
+So when we have a CPU and a memory bar, what do we get?? we get a brain.
+
+- Storage: Data = files, but if we want to store the data in a more structure way, we use a database.
+
+-Database: Store data in structured way that we can easily serach it and query it.
+
+Finally in the server, we're algo going to have some networking aspect, and that is going to be :
+
+-Networks: Routers, switch, DNS server.
+
+**IT Terminology**
+
+1. **Network**: cables, routers and servers connected with each other.
+2. **Router**: A networking device that forwards data packets between computer networks. They know where
+   to send your packets on the internet.
+3. **Switch**: Takes a packet and send it to the correct server / client on your network.
