@@ -216,3 +216,12 @@ Finally in the server, we're algo going to have some networking aspect, and that
 4. 2006 Re-launched publicly with SQS, S3 & EX2.
 5. 2007 Launched in Europe
 6. Companys using AWS: Netflix, Dropbox, Airbnb, Nasa.
+
+**AWS CLOUD USE CASES**
+
+1. AWS enables you to build sophisticated, scalable applications.
+2. Applicable to a diverse set of industries.
+3. Use cases include
+   Enterprise IT, Backup & Storage, Big Data Analytics.
+   Website hosting, Mobile & Social Apps.
+   Gaming
