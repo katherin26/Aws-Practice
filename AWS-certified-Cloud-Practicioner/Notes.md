@@ -207,3 +207,12 @@ Finally in the server, we're algo going to have some networking aspect, and that
 4. **Data transfet OUT of the Cloud:**
    Data transfer IN is free.
    Solves the expensive issue of tradisional IT.
+
+**AWS CLOUD HISTORY**
+
+1. 2002 Internally Launched.
+2. 2003 Amazon infrastructure is one of their core strength. Idea to Market.
+3. 2004 Launched Publicly with SQS.
+4. 2006 Re-launched publicly with SQS, S3 & EX2.
+5. 2007 Launched in Europe
+6. Companys using AWS: Netflix, Dropbox, Airbnb, Nasa.
