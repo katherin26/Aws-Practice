@@ -97,3 +97,40 @@ Finally in the server, we're algo going to have some networking aspect, and that
    Quickly and easily scale based on demand.
 5. **Measured service:**
    Usage is measured, users pay correctly for what they have used.
+
+**Six Advantages of Cloud Computing**
+
+1. **Trade Capital Expense (CAPEX) For Opertional Expense (OPEX)**
+   Pay On-Demand: don't own hardware.
+   Reduced Total Cost of Ownership (TCO) & Operational Expense (OPEX).
+2. **Benefit from massive economies of scale**
+   Prices are reduced as AWS is more efficient due to large scale.
+3. **Stop guessing capacity**
+   Scale based on actual measured usage.
+4. **Increase speed and agility**
+5. **Stop spending money running and maintaining data centers**
+6. **Go global in minutes : Leverage the AWS global infrastructure**
+
+**Problems solved by the cloud**
+
+1. **Flexibility:** Change resource types when needed.
+2. **Cost-Effectiveness:** Pay as you go, for what you use.
+3. **Scalability:** Accommodate larger loads by making hardware stronger or adding additional nodes.
+4. **Elasticity:** Ability to scale out and scale-in when needed.
+5. **High-availability and fault-tolerance:** Build across data centers.
+6. **Agility:** Rapidly develop, test and launch software applications.
+
+**Types of Cloud Computing**
+
+1. **Infrastructure as a Service (IaaS)**
+   Provide building blocks for Cloud IT.
+   Provides networking, computers, data storage space.
+   Highest level of flexibility.
+   Easy parallel with traditional on-premises IT.
+
+2. **Platform as a Service (PaaS)**
+   Removes the need for your organization to manage the underlying infrastructure.
+   Focus on the deployment and management of your applications.
+
+3. **Software as a Service (SaaS)**
+   Completed product that is run and managed by the service provider.
