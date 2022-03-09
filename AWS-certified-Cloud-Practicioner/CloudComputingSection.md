@@ -281,3 +281,19 @@ Answer: Depend, But let's look at some factors that may impact your choice of a 
 
 1. Amazon has 216 Points of presence (205 Edge Locations & || Regional Caches) in 84 cities across 42 countries.
 2. Content is delivered to end users with lower latency.
+
+**AWS Cloud Overview**
+
+1. AWS has Global Services :
+
+   -Identity and Access Management (IAM)
+   -Route 53 (DNS service)
+   -CloudFront (Content Delivery Network)
+   -WAF (Web Application Firewall)
+
+2. MOST AWS services are Region-scoped:
+
+- Amazon EC2 (Infrastructure as a service)
+- Elastic BeanStalk (Platform as a service)
+- Lambda (Function as a service)
+- Rekognition (Software as a service)
