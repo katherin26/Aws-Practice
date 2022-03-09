@@ -225,3 +225,10 @@ Finally in the server, we're algo going to have some networking aspect, and that
    Enterprise IT, Backup & Storage, Big Data Analytics.
    Website hosting, Mobile & Social Apps.
    Gaming
+
+**AWS Global Infrastructure**
+
+1. AWS Regions
+2. AWS Availability Zones
+3. AWS Data Centers
+4. AWS Edge Locations / Points of Presence
