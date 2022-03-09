@@ -134,3 +134,53 @@ Finally in the server, we're algo going to have some networking aspect, and that
 
 3. **Software as a Service (SaaS)**
    Completed product that is run and managed by the service provider.
+
+## **MANAGE BY YOU AND MANAGE BY OTHERS**
+
+**ON-PREMISES**
+
+1. Applications (MANAGE BY YOU)
+2. Data (MANAGE BY YOU)
+3. Runtime (MANAGE BY YOU)
+4. Middleware (MANAGE BY YOU)
+5. O/S (MANAGE BY YOU)
+6. Virtualization (MANAGE BY YOU)
+7. Servers (MANAGE BY YOU)
+8. Storage (MANAGE BY YOU)
+9. Networking (MANAGE BY YOU)
+
+**Infrastructure as a Service (IaaS)**
+
+1. Applications (MANAGE BY YOU)
+2. Data (MANAGE BY YOU)
+3. Runtime (MANAGE BY YOU)
+4. Middleware (MANAGE BY YOU)
+5. O/S (MANAGE BY YOU)
+6. Virtualization (MANAGE BY OTHERS)
+7. Servers (MANAGE BY OTHERS)
+8. Storage (MANAGE BY OTHERS)
+9. Networking (MANAGE BY OTHERS)
+
+**Platform as a Service (PaaS)**
+
+1. Applications (MANAGE BY YOU)
+2. Data (MANAGE BY YOU)
+3. Runtime (MANAGE BY OTHERS)
+4. Middleware (MANAGE BY OTHERS)
+5. O/S (MANAGE BY OTHERS)
+6. Virtualization (MANAGE BY OTHERS)
+7. Servers (MANAGE BY OTHERS)
+8. Storage (MANAGE BY OTHERS)
+9. Networking (MANAGE BY OTHERS)
+
+**Sofware as a Service (SaaS)**
+
+1. Applications (MANAGE BY OTHERS)
+2. Data (MANAGE BY OTHERS)
+3. Runtime (MANAGE BY OTHERS)
+4. Middleware (MANAGE BY OTHERS)
+5. O/S (MANAGE BY OTHERS)
+6. Virtualization (MANAGE BY OTHERS)
+7. Servers (MANAGE BY OTHERS)
+8. Storage (MANAGE BY OTHERS)
+9. Networking (MANAGE BY OTHERS)
