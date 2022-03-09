@@ -243,3 +243,23 @@ Finally in the server, we're algo going to have some networking aspect, and that
 
 2. A region is a **Cluster of data centers**
 3. Most AWS services are region-scoped : That means that if we use a service in one region and we try to use it in another region it will be like a new time of using the service.
+
+# **HOW TO CHOOSE AN AWS REGION**
+
+**This question could be in the exam : How do you choose an AWS region??**
+
+Example: If you need to launch a new application where should you do it?
+Answer: Depend, But let's look at some factors that may impact your choice of a AWS region.
+
+1. **Compliance** : With data governace and legal requirements: data never leaves a region without
+   your explicit permision.
+
+   For example: France, data in france stay inside the country and therefore you should launch your application in the French Region.
+
+2. **Proximity to customers**: Reduced latency, There is also a concept of latency, so if most of your
+   users are going to be in america it means a lot of sense to deploy your application in America close to users because they will have reduced latency if you deploy your applocation in Australia and your users are in America they will have a lot of lag at using your application.
+
+   NOTE: Also not all regions have all services, Some regions do not have services, so if you leveraging
+   a service with your application you need to make sure that the region you're deploying into is available and does have that service.
+
+3. **Pricing**: Princing values region to region and is transparent in the service pricing page.
