@@ -82,3 +82,18 @@ Finally in the server, we're algo going to have some networking aspect, and that
 1. Keep some servers on premises and extend some capabilities to the Cloud.
 2. Control over sensitive assets in you private infrastructure.
 3. Flexibility and cost-effectiveness of the public cloud.
+
+**The five charactetistics of cloud computing**
+
+1. **On-demand self service:**
+   users can provision resources and use them without human interaction from the service provider.
+2. **Broad network access:**
+   Resources available over the network, and can be accesses by diverse client platforms.
+3. **Multi-tenancy and resource pooling:**
+   Multiple customers can share the same infrastructure and applications with security and privacy .
+   Multiple customers are serviced from the same physical resources.
+4. **Rapid elasticity and scalability:**
+   Automatically and quickly acquire and dispose resources when needed.
+   Quickly and easily scale based on demand.
+5. **Measured service:**
+   Usage is measured, users pay correctly for what they have used.
