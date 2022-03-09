@@ -263,3 +263,16 @@ Answer: Depend, But let's look at some factors that may impact your choice of a 
    a service with your application you need to make sure that the region you're deploying into is available and does have that service.
 
 3. **Pricing**: Princing values region to region and is transparent in the service pricing page.
+
+**AWS AVAILABILITY ZONES**
+
+1. Each region has many availability zones (Usually 3 , min is 2 , max is 6) .
+   Example:
+
+- ap-southeast-2a
+- ap-southeast-2b
+- ap-southeast-2c
+
+2. Each availability zone (AZ) is one or more discrete data centers with redundant power, networking and connectivity.
+3. They're separate from each other, so that they're isolated from disasters.
+4. They're connected with hight bandwith ultra-low latency networking.
