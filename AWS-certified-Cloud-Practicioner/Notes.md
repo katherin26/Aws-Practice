@@ -232,3 +232,14 @@ Finally in the server, we're algo going to have some networking aspect, and that
 2. AWS Availability Zones
 3. AWS Data Centers
 4. AWS Edge Locations / Points of Presence
+
+# **AWS REGIONS**
+
+1. AWS has Regions all around the world : The first important concept in AWS are regions, so regions are
+   all around the world the regions have a name, it could be :
+
+   - us-east-1
+   - eu-west-3 ... etc.
+
+2. A region is a **Cluster of data centers**
+3. Most AWS services are region-scoped : That means that if we use a service in one region and we try to use it in another region it will be like a new time of using the service.
