@@ -184,3 +184,15 @@ Finally in the server, we're algo going to have some networking aspect, and that
 7. Servers (MANAGE BY OTHERS)
 8. Storage (MANAGE BY OTHERS)
 9. Networking (MANAGE BY OTHERS)
+
+**Example of Cloud**
+
+1. **Infrastructure as a Service:**
+   Amazon EC2 (ON AWS).
+   GCP,Azure,Rackspace, Digital Ocean, Linode.
+2. **Platform as a Service:**
+   Elastic BeanStalk (on AWS).
+   Heroku, Google APP Engine (GCP), Windows Azure (Microsoft)
+3. **Software as a Service:**
+   Many AWS services (ex:Rekignition for Machine Learning)
+   Google Apps (Gmail), Dropbox, Zoom.
