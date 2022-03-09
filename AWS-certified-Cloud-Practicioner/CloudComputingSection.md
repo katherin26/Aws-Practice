@@ -297,3 +297,23 @@ Answer: Depend, But let's look at some factors that may impact your choice of a 
 - Elastic BeanStalk (Platform as a service)
 - Lambda (Function as a service)
 - Rekognition (Software as a service)
+
+# **SHARED RESPONSIBILITY MODEL DIAGRAM**
+
+**This question could be in the exam**
+
+1. What is the customer responsibility for the security IN the cloud :
+
+- Customer data
+- Platform, Applications, Identity and access Management.
+- Operating System, Network & firewall configuration.
+- Client-side data, encryption & data integrity , authentication.
+- Server-side encryption (File system and or data)
+- Networking traffic protection (encryption, integrity, identity).
+
+2. What is the AWS responsibility for the security OF the cloud:
+
+- SOFTWARE
+- Compute, Storage, Database, Networking.
+- HARDWARE / AWS GLOBAL INFRASTRUCTURE
+- Regions, Availability Zones, Edge Locations.
