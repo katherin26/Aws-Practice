@@ -62,3 +62,23 @@ Finally in the server, we're algo going to have some networking aspect, and that
 5. Simple way to access servers, storage, databases and set of application services.
 
 6. Amazon Web Services owns and maintains the network-connected hardware required for these application services, while you provision and use what you need via a web application.
+
+**The Deployment Models of the Cloud**
+
+**Private Cloud**
+
+1. Cloud services used by a single organization, not exposed to the public.
+2. Complete control.
+3. Security for sensitive applications.
+4. Meet specific business needs.
+
+**Public Cloud**
+
+1. Cloud resources owned and operated by a third party cloud service provider delivered over the internet.
+2. Six advantages of cloud Computing.
+
+**Hybrid Cloud**
+
+1. Keep some servers on premises and extend some capabilities to the Cloud.
+2. Control over sensitive assets in you private infrastructure.
+3. Flexibility and cost-effectiveness of the public cloud.
