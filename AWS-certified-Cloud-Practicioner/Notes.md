@@ -196,3 +196,14 @@ Finally in the server, we're algo going to have some networking aspect, and that
 3. **Software as a Service:**
    Many AWS services (ex:Rekignition for Machine Learning)
    Google Apps (Gmail), Dropbox, Zoom.
+
+**Pricing of the Cloud - Quick Overview**
+
+1. AWS has 3 pricing fundamentals, following the pay as you go pricing model.
+2. **Compute**:
+   Pay for compute time.
+3. **Storage:**
+   Pay for data stored in the cloud
+4. **Data transfet OUT of the Cloud:**
+   Data transfer IN is free.
+   Solves the expensive issue of tradisional IT.
