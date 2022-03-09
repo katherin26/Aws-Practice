@@ -52,3 +52,13 @@ Finally in the server, we're algo going to have some networking aspect, and that
 2. **Router**: A networking device that forwards data packets between computer networks. They know where
    to send your packets on the internet.
 3. **Switch**: Takes a packet and send it to the correct server / client on your network.
+
+**What is Cloud Computing?**
+
+1. Is the on-demand of compute power, database storage, applications and other IT resources.
+2. Through a cloud services platform with pay-as-you-go princing.
+3. You can provision exactly the right type and size of computing resources you need.
+4. You can access as many resources as you need, almos instantly.
+5. Simple way to access servers, storage, databases and set of application services.
+
+6. Amazon Web Services owns and maintains the network-connected hardware required for these application services, while you provision and use what you need via a web application.
