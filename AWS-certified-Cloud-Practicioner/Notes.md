@@ -276,3 +276,8 @@ Answer: Depend, But let's look at some factors that may impact your choice of a 
 2. Each availability zone (AZ) is one or more discrete data centers with redundant power, networking and connectivity.
 3. They're separate from each other, so that they're isolated from disasters.
 4. They're connected with hight bandwith ultra-low latency networking.
+
+**AWS Points of presence (Edge Locations)**
+
+1. Amazon has 216 Points of presence (205 Edge Locations & || Regional Caches) in 84 cities across 42 countries.
+2. Content is delivered to end users with lower latency.
