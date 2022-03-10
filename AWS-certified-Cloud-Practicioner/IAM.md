@@ -193,3 +193,15 @@ And together, once the EC2 instance is trying to access some information from AW
    - Rotable all your keys often.
    - Use IAM tools to apply appropriate permissions.
    - Analyze access patterns & review permissions.
+
+//IMPORTANT: IAM SECTION - SUMMARY
+
+- Users : mapped to a physical user, has a password for AWS console.
+- Groups : Contains users only.
+- Policies : JSON document that outlines permissions for users or groups.
+- Roles L for EC2 instances or AWS services.
+- Security : MFA + Password Policy.
+- AWS CLI : manage your AWS services using the command-line.
+- AWS SDK : manage your AWS services using a programming language.
+- Access Keys: access AWS using the CLI or SDK.
+- Audit: IAM Credential Reports & IAM Access Advisor.
