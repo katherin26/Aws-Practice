@@ -54,17 +54,54 @@ Because, we want to allow them to use our AWS accounts and to allow them to do s
 
 # **IAM POLICIES STRUCTURE**
 
-1. **CONSISTS OF** :
+1.  **CONSISTS OF** :
 
-   - Version: Policy language version, always include "2012-10-17"
-   - ID = an identifier for the policy (OPTIONAL)
-   - Statement = One or more individual satements (REQUIRED)
+    - Version: Policy language version, always include "2012-10-17"
+    - ID = an identifier for the policy (OPTIONAL)
+    - Statement = One or more individual satements (REQUIRED)
 
-2. **STATEMENTS CONSISTS OF**
+2.  **STATEMENTS CONSISTS OF**
 
-   - **SID** : An identifier for the statement (OPTIONAL)
-   - **EFFECT** : Whether the statement allows or denies access (ALLOW, DENY)
-   - **PRINCIPAL** : Account / user / role to which this policy applied to.
-   - **ACTION** : List of actions this policy allows or denies.
-   - **RESOURCE** : List of resources to which the actions applied to.
-   - **CONDITIONS** : Conditions for when this policy is in effect (OPTIONAL)
+    - **SID** : An identifier for the statement (OPTIONAL)
+    - **EFFECT** : Whether the statement allows or denies access (ALLOW, DENY)
+    - **PRINCIPAL** : Account / user / role to which this policy applied to.
+    - **ACTION** : List of actions this policy allows or denies.
+    - **RESOURCE** : List of resources to which the actions applied to.
+    - **CONDITIONS** : Conditions for when this policy is in effect (OPTIONAL)
+
+3.  **IAM - PASSWORD POLICY**
+
+    - **WHE CAN HAVE TWO DEFENSE MECHANISMS**
+
+    - **FIRST:**
+    - Strong Passwords = higher security for your account.
+    - In AWS, you can setup a password policy:
+
+      - Set a minimun password length.
+      - Require sepecific character types:
+        - Including uppercase letters.
+        - Lowercase letters.
+        - Numbers.
+        - Non-alphanumeric characters.
+      - Allow all IAM users to change their own passwords.
+      - Require users to change their password after some time (password expiration).
+      - Prevent password re-use.
+
+    - **SECOND:**
+    - Users have access to your account and can possibly change configurations or delete resources in your AWS account.
+    - You want to protect your Root Accounts and IAM users.
+      -MFA = Password you know + security device you own.
+
+           ALICE ===>  Password + MFA  => Successfil login.
+
+    - Main benefit of MFA:
+      - If a password is stolen or hacked, the account is not compromised.
+
+4.  **MFA DEVICES OPTIONS IN AWS**
+
+    - **VIRTUAL MFA DEVICE**
+      - Google Authenticator **(Phone Only)**
+      - Authy (multi-device)
+      - Universal 2nd Factor (U2F) Security Key : YubiKey by Yubico (3rd Party) : Support for multiple root and IAM Users using a single security key.
+      - Hardware Key Fob MFA Device = Provided by Gemalto (3rf party).
+      - Hardware Key Fob MFA Device = for AWS GovCloud(US). Provided by SurePassID (3rd party).
