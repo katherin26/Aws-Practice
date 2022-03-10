@@ -55,3 +55,33 @@
     - IAM Users in multiple Groups
     - A password policy
     - Permisssions assigned to Users to perform actions
+
+2.  Which of the following is an IAM Security Tool?
+
+    - IAM Credentials Report. - (Correct One)
+
+                    NOTE: IAM credentials report list all your account's users an the status of their various credentials. The other IAM Security Tool is IAM Access Advisor, It shows the service permissions granted to a user and when those services were last accessed.
+
+    - IAM Root Account Manager.
+    - IAM Services Report.
+    - IAM Security Advisor.
+
+3.  Which asnwer is INCORRECT regarding IAM Users?
+
+    - IAM Users access AWS with the root account credentials. -Correct one.
+
+                    NOTE: IAM Users access AWS Using a username and a password.
+
+    - IAM Users can belong to multiple groups.
+    - IAM Users don't have to belong to a group.
+    - IAM Users can have policies assigned to them.
+
+4.  Which of the following is an IAM best practice ?
+
+    - Don't use the root user account. -Correct One.
+
+                    NOTE: You only want to use the root account to create your first IAM User, and ofr a few account and service management tasks. For every day and administration tasks, use an IAM user with permissions.
+
+    - Create Several users for a physical person.
+    - Share credentials so a collegue can perform a task for you.
+    - Do not enable MFA for easier access.
