@@ -165,3 +165,15 @@ And together, once the EC2 instance is trying to access some information from AW
    - IAM Access Advisor(user-level)
      -Access advisor shows the service permissions granted to a user and when those services were last accessed.
    - You can use this information to revise your policies.
+
+8. **IAM GUIDELINES & BEST PRACTICES**
+
+   - Don't use the **root** account except for AWS account setup.
+   - One physical user = One AWS user.
+   - Assign users to groups and assign permissions to groups.
+   - Create a strong password policy
+   - Use and enforce the use of **Multi Factor Authentication (MFA)**
+   - Create and use **Roles** for giving permisssions to AWS services.
+   - Use Access Keys for Programmatic Access (CLI/SDK)
+   - Audit permissions of your account with the IAM Credentials Report.
+   - Never share IAM Users & Access Keys.
