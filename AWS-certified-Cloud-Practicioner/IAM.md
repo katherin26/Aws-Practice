@@ -113,10 +113,21 @@ Because, we want to allow them to use our AWS accounts and to allow them to do s
 
     - To access AWS, you have three options:
       - AWS Management Console(protected by password + MFA)
-      - AWS Command Line Interface (CLI) = Protected by access keys
-      - AWS Software Developer Kit (SDK) = for code:protected by access keys
+      - AWS Command Line Interface **(CLI)** = Protected by access keys
+      - AWS Software Developer Kit **(SDK)** = for code:protected by access keys
     - Access Keys are generated through the AWS Console
     - Users manage their own access keys
     - **Access keys are secret, just like a password. Dont't share them.**
     - Access Key ID ~= Username
     - Secret Access Key ~= Password
+
+    **What's the AWS SDK?**
+
+    - AWS Software Development Kit **(AWS SDK)**
+    - Language-specific APIs (set of libraries)
+    - Enables you to access and manage AWS services programmatically
+    - Embedded within your application
+    - Supports
+      - SDKs (Javascript, Python, PHP, .NET, Ruby, Java, Go, Node.js, C++)
+      - Mobile SDKs (Embedded C, Arduino,...)
+    - Example: AWS CLI is built on AWS SDK for Python
