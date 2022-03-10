@@ -131,3 +131,27 @@ Because, we want to allow them to use our AWS accounts and to allow them to do s
       - SDKs (Javascript, Python, PHP, .NET, Ruby, Java, Go, Node.js, C++)
       - Mobile SDKs (Embedded C, Arduino,...)
     - Example: AWS CLI is built on AWS SDK for Python
+
+NOTE: Alternative for using the terminal to issue commands against AWS. And is using cloud shell.
+
+     **CLOUD SHELL** = It's a terminal in the cloud of AWS.
+     1. The good thing about using the CLI, for example:
+
+        aws iam list-users
+
+        this returns for yoy an API call.
+     2. Full repository.
+
+6. **IAM ROLES FOR SERVICES**
+
+   - Some AWS service will need to perform actions on your behalf.
+   - To do so, we will assign **Permissions** to AWS services with **IAM Roles**.
+   - Common roles: EC2 Instance Roles.
+   - Lambda Function Roles.
+   - Roles for CloudFormation.
+
+**For example** - We are going to create throughout this course, an EC2 instance, and EC2 Instance is just like a virtual server. But this EC2 instance may want to perform some actions on AWS, and to do so,
+we need to give permissions to our EC2 Instance.
+
+To do so : We are going to create an IAM Role and together. They are going to make one entity.
+And together, once the EC2 instance is trying to access some information from AWS. then it will use the IAM ROLE and if the permission assigned to the IAM Role is correct, then we're going to get access to the call we're trying to make.
