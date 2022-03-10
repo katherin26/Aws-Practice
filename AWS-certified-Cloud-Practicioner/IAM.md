@@ -105,3 +105,18 @@ Because, we want to allow them to use our AWS accounts and to allow them to do s
       - Universal 2nd Factor (U2F) Security Key : YubiKey by Yubico (3rd Party) : Support for multiple root and IAM Users using a single security key.
       - Hardware Key Fob MFA Device = Provided by Gemalto (3rf party).
       - Hardware Key Fob MFA Device = for AWS GovCloud(US). Provided by SurePassID (3rd party).
+
+//NOTE: Account Settings and then Change password policy.
+//NOTE: User account and then your security credentials ==> multifactor authentication ==> acticate MFA.
+
+5.  **HOW CAN USERS ACCESS AWS?**
+
+    - To access AWS, you have three options:
+      - AWS Management Console(protected by password + MFA)
+      - AWS Command Line Interface (CLI) = Protected by access keys
+      - AWS Software Developer Kit (SDK) = for code:protected by access keys
+    - Access Keys are generated through the AWS Console
+    - Users manage their own access keys
+    - **Access keys are secret, just like a password. Dont't share them.**
+    - Access Key ID ~= Username
+    - Secret Access Key ~= Password
