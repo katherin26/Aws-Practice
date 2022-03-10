@@ -85,3 +85,47 @@
     - Create Several users for a physical person.
     - Share credentials so a collegue can perform a task for you.
     - Do not enable MFA for easier access.
+
+5.  What are IAM Policies?
+
+    - JSON documents to define Users, Groups or Roles' Permissions. (Correct one).
+
+                    NOTE: An IAM policy is an entity that, when attached to an identity or resource, defines their permissions.
+
+    - AWS services perfomable actions.
+    - Rules to set up a password for IAM Users.
+
+6.  Under the shared responsibility model, what is the customer responsible for in IAM?
+
+    - Assignning users proper IAM Policies. - Correct one.
+
+                    NOTE: Customers are responsible for defining and using IAM policies.
+
+    - Infrastructure security.
+    - Compliance Validation.
+    - Configuration and Vulnerability analysis.
+
+7.  Which of the following statements is TRUE?
+
+    - The AWS CLI can interact with AWS using commands in your command-line shell, while the AWS SDK can interact with AWS programmatically. -Correct one.
+
+    - The AWS SDK can interact with AWS using commands in your command-line shell, while the AWS CLI can interact with AWS programmatically.
+
+8.  Which principle should you apply regarding IAM Permissions?
+
+    - Grant Least Privilege. - Correct One.
+
+                     NOTE: That's right, Don't give more permissions than the user needs.
+
+    - Grant Most Privilege.
+    - Grant Permissions if your employee asks you to.
+    - Restrict root account permissions.
+
+9.  What should you do to increase your root account security?
+
+    - Enable Multi-Factor Authentication (MFA). -Correct One.
+
+                    NOTE: You want to enable MFA In order to add a layer of security, so even if your password is stolen, lost or hacked your account is not compromised.
+
+    - Remove Permissions from the root account.
+    - Use AWS only through the Command Line Interface (CLI).
