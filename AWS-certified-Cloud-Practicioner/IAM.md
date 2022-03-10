@@ -177,3 +177,19 @@ And together, once the EC2 instance is trying to access some information from AW
    - Use Access Keys for Programmatic Access (CLI/SDK)
    - Audit permissions of your account with the IAM Credentials Report.
    - Never share IAM Users & Access Keys.
+
+9. **SHARED RESPONSIBILITY MODEL FOR IAM**
+
+   NOTE: **AWS**
+
+   - Infrastructure (global network security).
+   - Configuration and vulnerability analysis.
+   - Compliance Validation.
+
+   NOTE: **YOU**
+
+   - Users, Groups, Roles, Policies management and monitoring.
+   - Enable MFA on all accounts.
+   - Rotable all your keys often.
+   - Use IAM tools to apply appropriate permissions.
+   - Analyze access patterns & review permissions.
