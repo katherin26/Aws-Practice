@@ -155,3 +155,13 @@ we need to give permissions to our EC2 Instance.
 
 To do so : We are going to create an IAM Role and together. They are going to make one entity.
 And together, once the EC2 instance is trying to access some information from AWS. then it will use the IAM ROLE and if the permission assigned to the IAM Role is correct, then we're going to get access to the call we're trying to make.
+
+7. **IAM SECURITY TOOLS**
+
+   - IAM Credentials Report (account-level)
+
+     - A report that lists all your account's users and the status of their various credentials.
+
+   - IAM Access Advisor(user-level)
+     -Access advisor shows the service permissions granted to a user and when those services were last accessed.
+   - You can use this information to revise your policies.
