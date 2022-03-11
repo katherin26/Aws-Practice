@@ -129,3 +129,81 @@
 
     - Remove Permissions from the root account.
     - Use AWS only through the Command Line Interface (CLI).
+
+# **EC2 SECTION QUESTION**
+
+1.  Which EC2 Purchasing Option can provide the biggest discount, but is not suitable for critical jobs or databases??
+
+    - Scheduled Instances
+    - Convertible Instances
+    - Dedicated Hosts
+    - Spot Instances - (Correct One)
+
+                     NOTE: Spot instances are good for short workloads, but are less reliable.
+
+2.  Which network security tool can use to control traffic in and out of EC2 Instances?
+
+    - Network Access Control List (Correct one)
+
+                    NOTE: Security groups operate at instance level and can control traffic.
+
+    - Identify and Management Access (IAM)
+    - GuardDuty
+    - Security Groups
+
+3.  Under the Shared Responsibility Model, Who is responsible for operating-system patches and updates on EC2 Instances?
+
+    -The customer (Correct one).
+
+                    NOTE: The customer is responsible for operating-system patches and updates on EC2 Instancesm as well as data security on the instances, Security Groups rules, etc.
+
+    - AWS.
+    - Both AWS and the customer.
+
+4.  How long can you reserve an EC2 Reserved Instance?
+
+    - 1 or 3 years (Correct one)
+
+                    NOTE: 1 year or 3 years terms are available for EC2, Reserved Instances.
+
+    - 2 or 4 years .
+    - 6 months or 1 year .
+    - Anytime between 1 and 3 years.
+
+5.  A company would like to deploy a high-performance computing (HPC) application on EC2. Which EC2 instance type should it choose?
+
+    - Compute Optimized (Correct one).
+
+                    NOTE: Compute Optimized EC2 instances are great for compute- intensive workloads requiring high performance processors, such as batch processing, media transcoding, high performance web servers, high performance computing, scientific modeling & machine learning, and dedicated gaming servers.
+
+    - Storage Optimized
+    - Memory Optimized
+    - General Purpose
+
+6.  Which of the following is NOT an EC2 Instance Purchasing Option?
+
+    - Spot Instances
+    - Reserved Intances
+    - On-demand Instances
+    - Connect Instances
+
+7.  Which of the following is NOT an EC2 Instance Purchasing Option?
+
+    - Spot Instances.
+    - Reserved Instances.
+    - On-demand Instances.
+    - Connect Instances. (Correct one)
+
+                    NOTE: This EC2 Instance purchasing option does not exist.
+
+8.  Which EC2 Purchasing Option should you use for an application you plan on running on a server continuosly for 1 year?
+
+    - Reserved Instances (Correct One)
+
+                    NOTE: Reserved Instances are good for long workloads. You can reserve instances for 1 to 3 years.
+
+    - Spot Instances
+    - On-demand Instances
+    - Convertible Instances
+
+9.
