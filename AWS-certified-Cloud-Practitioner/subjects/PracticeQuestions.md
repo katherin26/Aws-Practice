@@ -1,3 +1,12 @@
+1. Which AWS service would simplify the migration of a database to AWS?
+
+   ```
+   A) AWS Storage Gateway.
+   B) AWS Database Migration Service. ===> NOTE:Correct Answer.
+   C) Amazon EC2.
+   D) Amazon Appstream 2.0.
+   ```
+
 # **CLOUD COMPUTING SECTION QUESTIONS**
 
 1. Which are the 3 pricing Fundamentals of the AWS cloud?
