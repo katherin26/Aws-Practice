@@ -9,49 +9,82 @@
 
 # **CLOUD COMPUTING SECTION QUESTIONS**
 
-1. Which are the 3 pricing Fundamentals of the AWS cloud?
+1.  Which are the 3 pricing Fundamentals of the AWS cloud?
 
-   - Compute, Storage and Data transfer out of the AWS cloud.
+    - Compute, Storage and Data transfer out of the AWS cloud.
 
-2. Which of the following options is NOT a point of consideration when choosing an AWS Region?
+                NOTE: Compute, Storage, and data transfer out of the AWS cloud are the pricing fundamentals of the AWS Cloud.
 
-   - Capacity Availability.
+2.  Which of the following options is NOT a point of consideration when choosing an AWS Region?
 
-3. Which of the following is NOT an advantage of cloud computing?
+    - Capacity Availability.
 
-   - Train your employes Less.
+                NOTE: Capacity is unlimited in the cloud, you do not need to worry about it. The 4 points of consideration
+                    when choosing an AWS Region are: compliance with data governance and legal requirements, proximity to customers, available services and features within a Region and pricing.
 
-4. AWS Regions are compared of ?
+3.  Which of the following is NOT an advantage of cloud computing?
 
-   - Two or more availability zones.
+    - Train your employes Less.
 
-5. You only want to manage Applications and Data which type of cloud computing model should you use?
+                NOTE: You must train your employees more so they can use the cloud effectively.
 
-   - Platform as a service. (PasS)
+4.  AWS Regions are composed of ?
 
-6. What is the pricing of cloud computing?
+    - Two or more availability zones.
 
-   - Pay as you go pricing. ( in cloud computing you are only charged for what you use).
+                NOTE: AWS regions consist of multiple, isolated, and physically separate availability zones within a geographic area.
 
-7. Which of the following is NOT one of the five characteristics of cloud computing ?
+5.  You only want to manage Applications and Data which type of cloud computing model should you use?
 
-   - Dedicated support agent to help you deploy applications.
+    - Platform as a service. (PasS)
 
-8. A company would like to benefit from the advantages of the public Cloud but would like to keep sensitive assets in its own infrastructure. Which deployment model should the company use?
+                NOTE: //In the platform as a service model, You only manage the data and the applications.
 
-   - Hibryd Cloud.
+6.  What is the pricing of cloud computing?
 
-9. What is NOT authorized to do on AWS according to the AWS acceptable use policy?
+    - Pay as you go pricing.
 
-   - Run analitys on stolen content.
+                NOTE: in cloud computing you are only charged for what you use.
+
+7.  Which of the following is NOT one of the five characteristics of cloud computing ?
+
+    - Dedicated support agent to help you deploy applications.
+
+                NOTE: This is not one of the five characteristics of cloud computing. in the cloud,everything is self-service.
+
+8.  A company would like to benefit from the advantages of the public Cloud but would like to keep sensitive assets in its own infrastructure. Which deployment model should the company use?
+
+    - Hibryd Cloud.
+
+                NOTE: Using a  hybrid cloud deployment model allows you to benefit from the flexibility, scalability and on demand storage access while keeping security and performance of your own infracstructure.
+
+9.  What is NOT authorized to do on AWS according to the AWS acceptable use policy?
+
+    - Run analitys on stolen content.
+
+                NOTE: You can run analytics in AWS, but you cannot run analytics on fraudulent content. Refer to the AWS acceptable use policy to see what is not authorized to do on AWS.
 
 10. What defines the distribution of responsabilities for security in the AWS Cloud?
 
     - The shared Responsibility Model.
 
+                NOTE: The shared responsability model defines who is responsible for what in the AWS cloud.
+
 11. Which of the following is the definition of cloud computing?
 
     - On demand availability of computer system resources, specially data storage (cloud storage) and computer Power, withour direct active management by the user.
+
+12. Which Global Infrastructure identity is composed of one or more discrete data centers with redundant power, networking and connectivity, and are used to deploy infrastructure?
+
+    - Availability Zones
+
+                NOTE: This is the definition of Availability Zones.
+
+13. Which of the following services has a global scope?
+
+    - IAM
+
+                NOTE: IAM is a global service (encompasses all regions).
 
 # **IAM SECTION QUESTIONS**
 
@@ -92,7 +125,7 @@
                     NOTE: You only want to use the root account to create your first IAM User, and ofr a few account and service management tasks. For every day and administration tasks, use an IAM user with permissions.
 
     - Create Several users for a physical person.
-    - Share credentials so a collegue can perform a task for you.
+    - Share credentials to a colleague can perform a task for you.
     - Do not enable MFA for easier access.
 
 5.  What are IAM Policies?
