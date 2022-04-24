@@ -330,5 +330,3 @@
 - An availability zone. ==> Correct one .
 
             NOTE: EBS Volumes are tied to only one availability zone.
-
-11.
