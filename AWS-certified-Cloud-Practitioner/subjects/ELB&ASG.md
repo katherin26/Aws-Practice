@@ -59,3 +59,23 @@ And for a call center, that makes sense.
 3. High Availability: Run Instances for the same application across multu AZ
    a. Auto Scaling Group multi AZ.
    b. Load Balancer multi AZ.
+
+IMPORTANT:
+
+![Drag Racing](images/SCALABILITY_ELASTICITY.png)
+
+# **WHAT IS LOAD BALANCING**
+
+This is the service that will allow us to be more elastic on AWS.
+
+1. Load balancers are servers that forward internet traffic to multiple servers (EC2 Instances) downstream.
+
+(They are also called the backhand EC2 instances), so Elastic Load Balancing is something that is managed by AWS, so we have a load balancer and this is what we will be publicly exposing for our users.
+And behind that load balancer, we will have multiple EC2 Instances, maybe three in that case.
+And then we have our first user. Talking to our load balancer. and the load balancer will be direncting the traffic to one of these EC2 instances. And the EC2 instance will reply back with something.
+
+And the user will get the response.
+But now if the second user comes in, then we will get the reply from another EC2 instance, and if a third user comes in, as you can expect, it will be replying from another EC2 Instance.
+And so the load balancer, the more users we have, the more it will balance the load across multiple EC2 instances. And that will allow us to scale better our backend.
+
+![Drag Racing](images/LOAD_BALANCING.png)
