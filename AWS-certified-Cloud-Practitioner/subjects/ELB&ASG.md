@@ -107,3 +107,29 @@ And so the load balancer, the more users we have, the more it will balance the l
 Create Load Balancer =
 
 ![Drag Racing](images/LOAD_BALANCER.png)
+
+CREATE APPLICATION LOAD BALANCER :
+
+![Drag Racing](images/APPLICATION_LOAD_BALANCER.png)
+
+**WHAT'S AN AUTO SCALING GROUP?**
+
+1. In real-life, the load on your websites and application can change.
+2. In the cloud, you can create and get rid of servers very quickly.
+3. The goal of an Auto Scaling Group (ASG) is to:
+   a. Scale out (add EC2 instances) to match an increased load.
+   b. Scale in (remove EC2 instances) to match a decreased load.
+   c. Ensure we have a minumun and maximun number of machines running.
+   d. Automatically registes new instances to a load balancer.
+   e. Replace unhealthy instances.
+
+4. Cost savings only run at an optimal capacity (principle of the cloud).
+
+**AUTO SCALING GROUP IN AWS**
+
+![Drag Racing](images/SCALING_GROUP.png)
+
+**AUTO SCALING GROUP IN AWS WITH LOAD BALANCER**
+web traffic can be coming in through our load balancer, which will be redirectiong the traffic directly into your EC2 instance.
+
+![Drag Racing](images/AUTO_SCALING_GROUP.png)
