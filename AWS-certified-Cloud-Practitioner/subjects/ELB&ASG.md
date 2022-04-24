@@ -133,3 +133,20 @@ CREATE APPLICATION LOAD BALANCER :
 web traffic can be coming in through our load balancer, which will be redirectiong the traffic directly into your EC2 instance.
 
 ![Drag Racing](images/AUTO_SCALING_GROUP.png)
+
+**AUTO SCALING GROUPS - SCALING STRATEGIES**
+
+1. Manual Scaling: Update the size of an ASG manually.
+   (For example : we chaged the capacity from one to two or back from two to one. Then we can define some scalig strategies such as )
+2. Dynamic Scaling: Respond to changin demand.
+   a. Simple / step scaling: - When a Cloud Watch alarm is triggered (example CPU > 70 % ), then add 2 units. - When a Cloud Watch alarm is triggered (example CPU < 30% ), Then remove I.
+   b. Target Tracking Scaling.
+   -Example : I want the average ASG CPU to stay at around 40%
+   c. Scheduled Scaling:
+   -Anticipate a scaling base on known usage patterns. - Example: Increase the min. capacity t 10 at 5 pm on Fridays.
+
+3. Predictive Scaling:
+   a. Uses Machine Learning to predict future traffic ahead of time.
+   b. Automatically provision the right number of EC2 instances in advance.
+
+4. Useful when your load has predictable time-based patterns.
