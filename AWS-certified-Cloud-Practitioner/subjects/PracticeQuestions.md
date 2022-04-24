@@ -330,3 +330,92 @@
 - An availability zone. ==> Correct one .
 
             NOTE: EBS Volumes are tied to only one availability zone.
+
+# **ELB & ASG QUESTIONS**
+
+1. What is the main purpose of High Availability in the cloud?
+
+- Increase scalability.
+- Application Thriving even in case of a disaster. ==> Correct one.
+
+            NOTE: High availability means applications running at least in two AZs to survive a data center loss.
+
+- Access on computers and smartphones.
+- Handle greater loads by launching EC2 instances based on the demand.
+
+2. Which AWS offered Load Balancer should you use to handle hundreds of thounsands of connections with low latency?
+
+- Application Load Balancer.
+- Network Load Balancer. ==> Correct one.
+
+            NOTE: a network Load Balancer can handle millions of request per second with low-latency. It operates at Layer 4,
+            and is best suited for load balancing TCP, UDP, and TLS traffic ultra high performance.
+
+- Elastic Load Balancer
+
+3. Changing an EC2 instance type from a t3a.medium to a t3a.2Xlarge is an example of?
+
+- Horizontal scaling.
+- High Availability.
+- Agility.
+- Vertical Scaling ===> Correct One.
+
+            NOTE: Vertical scaling means increasing the size of the instance. Changing from t3a.2xlarge is an example of size increase.
+
+4. What can you use to handle quickly and automatically the changing load on your websites and applications by adding compute resources?
+
+- An Elastic Load Balancer.
+- A bigger instance type.
+- An auto scaling group. ==> Correct one
+
+            NOTE: An auto scaling group (ASG) can automatically and quickly scale in and scale out to match the changing load on your applications and websites.
+
+- Health Checks on your EC2 Instances.
+
+5. Which of the following statements is INCORRECT regarding Auto Scalling Groups??
+
+- Replace unhealthy instances.
+- Are cost effective by running at optimal capacity.
+- Automatically register new instances to a load balancer.
+- Automatically changing the EC2 Instances types. ==> Correct one
+
+            NOTE: Auto scaling groups can add or remove instances, but from the same type. they cannot change the EC2 instances types on the fly.
+
+6. Which Load Balancer is best suited for HTTP/HTTPS load balancing traffic?
+
+- Network Load Balancer.
+- Classic Load Balancer.
+- Elastic Load Balancer.
+- Application Load Balancer. ==> Correct One.
+
+            NOTE: Application Load Balancers are used for HTTP and HTTPS load balancing. They are the best suited for this kind of traffic.
+
+7. Which of the following is NOT an auto scaling strategy??
+
+- Manual Scaling.
+- Dynamic Scaling.
+- Active Scaling. ==> Correct One.
+
+            NOTE: This is not a scaling strategy. Auto scaling strategys include :
+
+                    - Manual Scaling
+                    - Dynamic Scaling (simple/step scaling, target tracking scaling, scheduled scaling),
+                    - Predictive Scaling
+
+8. Which AWS service offers easy horizontal scaling of compute capacity?
+
+- EBS
+- AMI
+- IAM
+- ASG ===> Correct one.
+
+            NOTE: Auto Scaling Groups (ASG) offers the capacity to scale out and scale in by adding or removing instances based on demand.
+
+9. Which of the following statements is NOT a feature of LOAD BALANCERS?
+
+- Do regular health checks to your instances.
+- Spread load across multiple downstream instances.
+- Handle failures of downstream instances.
+- Back-end autoscaling. ==> Correct one
+
+            NOTE: Load balancers cannot help with backend autoscaling . You should use Auto Scaling Groups.
