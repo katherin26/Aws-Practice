@@ -79,3 +79,12 @@ But now if the second user comes in, then we will get the reply from another EC2
 And so the load balancer, the more users we have, the more it will balance the load across multiple EC2 instances. And that will allow us to scale better our backend.
 
 ![Drag Racing](images/LOAD_BALANCING.png)
+
+**WHY USE A LOAD BALANCER**
+
+1. Spread load across multiple downstream instances.
+2. Expose a single point of access (DNS) to your application.
+3. Seamlessly handle failures of downstream instances.
+4. Do regular health checks to your instances.
+5. Provide SSL termination (HTTPS) for your websites.
+6. High availability across zones.
