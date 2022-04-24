@@ -248,4 +248,87 @@
     - On-demand Instances
     - Convertible Instances
 
-9.
+# **EC2 INSTANCE STORAGE QUESTIONS**
+
+1. Which EC2 Storage would you use to create a shared network file system for your EC2 Isntances?
+
+   - EBS Volume.
+   - EC2 Instance Store.
+   - EBS Snapshots
+   - EFS (Amazon EFS is a fully managed service that makes it easy to set up, scale, and cost-optimize file storage in the
+     amazon cloud.) ===> NOTE: Correct one
+
+2. Which service can be used to automate image management processes?
+
+- AMI
+- EC2 Image Builder (EC2 Image Builder is an automated pipeline for the creation, maintenance, validation, sharing, and deployment of linux or Windows images for use on AWS and on-premises.) ===> Correct one
+- EBS Snapshots
+- IAM
+
+3. Which of the following is a fully managed native Microsoft Windows file system?
+
+- EFS
+- FSx (Amazon FSx makes it easy and cost effective to launch and run popular file systems that are fully managed by AWS. It comes in two offerings: FSx for Windows File Server ( used for business applications), and FSx for Lustre (used for high-performance computing.)) ===> NOTE: Correct one.
+- EBS
+
+4. You cannot use AMIs to add your IP addresses. IP addresses are added to an instance as you create it.
+
+- Add your own software license.
+- Add your own configuration.
+- Add your own operating-system.
+- Add your own IP addresses . ===> Correct one.
+
+           NOTE: You cannot use AMIs to add your IP addresses. IP addresses are added to an instance as you create it.
+
+5. EBS Volumes CANNOT be attached to multiple EC2 instances at a time.
+
+- True ===> Correct one.
+
+           NOTE: EBS Volumes can be attached to only one EC2 instance at a time, but EC2 Instances can have multiple EBS Volumes attached to them.
+
+- False
+
+6. An EBS Volume is a network drive you can attach to your instances while they run, so your instances' data persist even after their termination.
+
+- True ===> Correct one.
+
+           NOTE: (EBS Volumes allows instances' data to persist even after their termination).
+
+- False
+
+7. Which statement is CORRECT regarding EC2 Instance Store??
+
+- It is not good to use as a disk to cache content.
+- It has a better I/O performance, but the data is lost if the EC2 instance is terminated. ===> Correct one.
+
+            NOTE: It has a better I/O Performance. But the data is lost if the  EC2  Instance is terminated.
+
+- Your data is always safe with EC2 instance store.
+
+8. What is an EBS Snapshot?
+
+- The operating system on an EC2 Instance.
+- A backup of your EBS Volume at a point in time. ==> Correct One
+
+            NOTE: EBS Snapshots are used to backup data on your EBS Volumes at a point in time.
+
+- The amount of CPU and RAM of an EC2 Instance.
+
+9. Where can you find a third party's AMI so you can use it to launch your EC2 Instance?
+
+- Public AMIs
+- My own AMIs
+- AWS Marketplace AMIs ===> Correct one
+
+            NOTE: You can use AWS MarketPlace AMIs to use someone else's AMI.
+
+10. What is an EBS Volume tied to ?
+
+- A region.
+- A data center.
+- An edge location.
+- An availability zone. ==> Correct one .
+
+            NOTE: EBS Volumes are tied to only one availability zone.
+
+11.
