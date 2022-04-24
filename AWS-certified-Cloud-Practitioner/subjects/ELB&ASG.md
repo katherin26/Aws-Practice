@@ -39,3 +39,23 @@ So when you have horizontal scaling that implies as you can see on the right han
 And for a call center, that makes sense.
 
 (NOTE:So if you have a web application or a modern application, You usually design it with horizontal scalability in mind.)
+
+**HIGH AVAILABILITY**
+
+1. High Availability usually goes hand in hand with horizontal scaling.
+2. High availabiliy means running your application / system in at least 2 Availability Zones.
+3. The goal of high availability is to survive a data center loss.(disaster).
+
+**HIGH AVAILABILITY & SCALABILITY FOR EC2**
+
+1. Vertical Scaling: Increase instance size (= scale up / down).
+   a. From: t2.nano - 0.5G of RAM, I vCPU.
+   b. To: u-I2TBI.metal - I2.3TB of RAM, 448 vCPUs.
+
+2. Horizontal Scaling: Increase number of instances (=scale out/ in)
+   a. Auto Scaling Group.
+   b. Load Balancer.
+
+3. High Availability: Run Instances for the same application across multu AZ
+   a. Auto Scaling Group multi AZ.
+   b. Load Balancer multi AZ.
