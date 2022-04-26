@@ -419,3 +419,107 @@
 - Back-end autoscaling. ==> Correct one
 
             NOTE: Load balancers cannot help with backend autoscaling . You should use Auto Scaling Groups.
+
+# **S3 QUESTIONS**
+
+1. Which S3 Storage Class is the msot cost-effective for archiving data with no retrieval time requirement?
+
+- Amazon Glacier.
+- Amazon Glacier Deep Archive. ===> Correct One
+
+            NOTE: Amazon Glacier Deep Archive is the most cost-effective option if you want to archive data and do not have a retrieval time requirement. You can retrieve data in 12 or 48 hours.
+
+- Amazon S3 Standard-Infrequent Access.
+- Amazon S3 Intelligent Tiering.
+
+2. Which S3 Feature should you use if you want to make sure that a policy will no longer be changed??
+
+- S3 Lifecycle Rules.
+- S3 Object Lock.
+- S3 Standard - Infrequent Access (IA).
+- S3 Glacier Vault Lock. ==> Correct One.
+
+            NOTE: S3 Glacier Vault Lock allows you to easily deploy and enforce compliance controls for individual S3 Glacier vaults with a vault lock policy. You can specify controls such as "Write once read many" (WORM) in a vault lock policy and lock the policy from future edits. Once locked, the policy can no longer be changed.
+
+3. Which hybrid AWS Service is used to allow on-premises servers to seamlessly use the AWS Cloud at the storage layer??
+
+- Elastic Block Store.
+- Snowball.
+- S3.
+- Storage Gateway ===> Correct One.
+
+            NOTE: AWS storage gateway is a hybrid cloud storage service that gives you on-premises access to virtually unlimited cloud storage.
+
+4. Which of the following services is a petabyte-scale data moving service (as a fleet) in or out of AWS with computing capabilities??
+
+- Snowcone.
+- Snowball Edge. ===> Correct One.
+
+            NOTE: Snowball Edge is best-suited to move petabytes of data and offers computing capabilities. Be careful, it's recommended to use a fleet of Snowballs to move less than 10 PBs of data. Over this quantity, it's better-suited to use Snowmobile.
+
+- Snowmobile.
+
+5. Which of the following is an exabytes-scale data moving service in our out of AWS???
+
+- Snowcone.
+- Snowball Edge.
+- Snowmobile. ===> Correct One.
+
+            NOTE: Snowmobile is used to move exabytes of data in or out of AWS (1EB=1,000 PBs=1,000,000 TBs).
+
+6. What are Objects NOT composed of???
+
+- Key.
+- Value.
+- Access Keys. ==> Correct One.
+
+            NOTE: Access Keys are used to sign programmatic requests to the AWS CLI or AWS API.
+
+- Metadata.
+
+7. Where are objects stored in Amazon S3??
+
+- Folders.
+- Buckets. ===> Correct One.
+
+            NOTE: Buckets store objects in Amazon S3.
+
+- Files.
+- Bin.
+
+8. A research team deployed in a location with low-internet connection would like to move 5 TBs of data to the CLoud. Which service can it use ??
+
+- Storage Gateway.
+- Snowball Edge.
+- Snowcone. ===> Correct One.
+
+            NOTE: AWS Snowcone is a small, portable, rugged and secure edge computing and data transfer device. It provides up to 8 TB of usable storage.
+
+- OpsHub.
+
+9. What can you use to define actions to move S3 Objects between different storage Classes??
+
+- Scaling Policy.
+- Bucket Policies.
+- Lifecycle Rules. ==> Correct One.
+
+            NOTE: Lifecycle Rules can be used to define when S3 objects should be transitioned to another storage class or when objects should be deleted after some time.
+
+- Replication.
+
+10. A non-profit organization needs to regurlaly transfer petabytes of data to the cloud and to have access to local computing capacity. which service can help with this task??
+
+- Snowball Edge - storage optimized. ===> Correct One.
+
+            NOTE: Snowball  Edge Storage Optimized devices are well suited for large-scale data migrations and recurring transfer workflows, as well as local computing with higher capacity needs.
+
+11. Which S3 Storage Class is suitable for less frequently accessed data, but with rapid access when needed, while keeping a high durability and allowing an Availability Zone Failure.
+
+- Amazon S3 Standard - General Purpose.
+- Amazon Glacier.
+- Amazon S3 One Zone-Infrequent Access.
+- Amazon S3 Standard-Infrequent Access. ===> Correct One.
+
+            NOTE: Amazon S3 Standard Infrequent Access Allow you to store infrequently accessed data, with rapid access when needed. has a high durability and is sored in several Availability zones to avoid data loss in case of a disaster. It can be used to store data for disaster recovery, backups etc...
+
+
