@@ -522,4 +522,99 @@
 
             NOTE: Amazon S3 Standard Infrequent Access Allow you to store infrequently accessed data, with rapid access when needed. has a high durability and is sored in several Availability zones to avoid data loss in case of a disaster. It can be used to store data for disaster recovery, backups etc...
 
+# **DATABASES**
 
+1. You want to create a decentralized blockchain on AWS. Which AWS service would you use?
+
+- DocumentDB.
+- QLDB.
+- Managed Blockchain. ===> Correct One.
+
+            NOTE: Amazon Managed Blockchain is a fully managed service that makes it easy to create and manage scalable blockchain networks using the popular open source frameworks Hyperledger Fabric and Ethereum. It allows multiple parties to execute transactions without the need of a trusted, central authority.
+
+- QuickSight.
+
+2. Which AWS database is a data warehouse?
+
+- DynamoDB.
+- ElastiCache.
+- Redshift. ===> Correct One.
+
+            NOTE: Amazon Redshift is a fully managed, petabyte-scale data warehouse service in the cloud.
+
+- RDS.
+
+3. Which AWS service is always serverless and has SQL capabilities?
+
+- RDS.
+- Aurora.
+- DynamoDB.
+- Athena. ===> Correct One.
+
+            NOTE: Amazon Athena is an interactive query service that makes it easy to analize data in Amazon S3 using standard SQL. Athena is serverless, so there is no infrastructure to manage, and you pay only for the queries that you run.
+
+4. You would like to use a serverless service to prepare data so it can be loaded for analytics. Which service would you use?
+
+- Athena.
+- RDS.
+- Glue. ===> Correct One.
+
+            NOTE: AWS Glue is a fully managed extract, transform, and load(ETL) service that makes it easy for customers to prepare and load their data for analytics.
+
+- ElastiCache.
+
+5. Which relational database is a proprietary techology from AWS and is cloud-optimized?
+
+- DynamoDB.
+- Oracle.
+- Athena.
+- Aurora. ===> Correct One.
+
+            NOTE: Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for the cloud, that combines the performance and availability of traditional enterprise databases with the simplicity and cost-effectiveness of open source databases. It is a proprietary technology from AWS.
+
+6. You would like to migrate databases to AWS, while still being able to use the database during the migration. What service allows you to do this?
+
+- Elastic MapReduce(EMR).
+- Database Migration Service(DMS). ===> Correct one.
+
+            NOTE: AWS Database Migration Service helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database.
+
+- AWS Storage Gateway.
+- Snowball.
+
+7. How can you create Hadoop clusters to analyze and process a vast amount of data?
+
+- EMR. ===> Correct One.
+
+            NOTE: Amazon EMR is a web service that enables businesses, researchers, data analysts, and developers to easily and cost-effectively process vast amounts of data. EMR helps creating Hadoop clusters (Big Data) to analyze and process vast amount of data.
+
+- Athena.
+- EC2 Instances.
+- Redshift.
+
+8. Which in-memory AWS database can you use to reduce the load off databases and has high performance, low latency?
+
+- Redshift.
+- ElastiCache. ===> Correct One.
+
+            NOTE: Amazon ElastiCache is a web service that makes it easy to deploy and run Memcached or REdis protocol-compliant server nodes in the cloud. ElastiCache caches are in-memory databases with high performance, low latency. They help reduce load off databases for read intensive workloads.
+
+- RDS.
+- DynamoDB.
+
+9. What is the name of a central repository to store structural and operational metadata for data assets in AWS Glue?
+
+- Glue Data Table.
+- Glue Data Dictionary.
+- Gle Data Catalog. ===> Correct One.
+
+            NOTE: The AWS Glue Data Catalog is a central repository to store structural and operational metadata for all your data assets. For a given data set, you can store its table definition, physical location, add business relevant attributes, as well as tracj how this data has changed over time.
+
+10. Which of the following databases is a managed service with SQL capability suited for Online Transaction processing(OLTP)?
+
+- DynamoDB.
+- Redhshift.
+- RDS ===> Correct One.
+- MySQL on EC2.
+
+            NOTE: Amazon Relational Database Service (Amazon RDS) is a SQL managed service that makes it easy to set up, operate, and scale a relational database in the cloud. It is suited for OLTP workloads.
