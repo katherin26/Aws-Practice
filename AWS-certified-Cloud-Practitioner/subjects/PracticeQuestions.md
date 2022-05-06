@@ -618,3 +618,71 @@
 - MySQL on EC2.
 
             NOTE: Amazon Relational Database Service (Amazon RDS) is a SQL managed service that makes it easy to set up, operate, and scale a relational database in the cloud. It is suited for OLTP workloads.
+
+11. Which AWS service is an immutable ledger database?
+
+- QLDB. ===> Correct One.
+
+            NOTE: Amazon QLDB is a fully managed ledger database that provides a transparent, immutable, and cryptographically verifiable transaction log owned by a central trusted authority. Amazon QLDB tracks each and every application data change and maintains a complete and verifiable history of changes over time.
+
+- EMR.
+- Managed Blockchain.
+- Inspector.
+
+12. You would like to set up a NoSQL database that can scale with no downtime and can handle millions of requests per second. Which AWS database is best suited for this work?
+
+- DynamoDB. ===> Correct One.
+
+            NOTE: DynamoDB is a fast and flexible non-relational database service for any scale. It can scale with no downtime, it can process millions of requests per second, and is fast and consistent in performance.
+
+- RDS.
+- Redshift.
+- Athena.
+
+13. Which AWS service can create complex graphs for fraud detection?
+
+- Redshift.
+- Neptune. ===> Correct One.
+
+            NOTE: Amazon Neptune is a fast, reliable, fully-managed graph database service that makes it easy to build and run applications that work highly connected datasets. It can be used for knowledge graphs, fraud detection, recommendations engines, social networking, etc.
+
+- QLDB.
+- Glue.
+
+14. Which AWS serverless service can use machine learing-powered business intelligence to create interactive dasboards such as business analytics?
+
+- QuickSight. ===> Correct One.
+
+            NOTE: Amazon QuickSight is a fast, cloud-powered business intelligence (BI) service that makes it easy for you to deliver insights to everyone in your organization. You can create and publish interactive dashboards.
+
+- Aurora.
+- Athena.
+- Managed Blockchain.
+
+15. A company would like to set up a fully managed MongoDB database. Which AWS database is best-suited for this task?
+
+- DocumentDB. ===> Correct One.
+
+            NOTE: Amazon DocumentDB (with MongoDB compatibility) ias a fast, calable, highly available, and fully managed document dabase service that supports MongoDB workloads.
+
+- ElastiCache.
+- RDS.
+- Neptune.
+
+16. Which exclusive DynamoDB feature is an in-memory cache that can improve your performance up to 10x?
+
+- ElastiCache.
+- Edge Locations.
+- DynamoDB Accelerator. ===> Correct One.
+
+            NOTE: Amazon DynamoDB Accelerator (DAX) is a fully managed, highly available, in memory cache for amazon DynamoDB that delivers up to a 10 times performance improvement--from milliseconds to microsecond--even at millions of requests per second.
+
+- Snowball Edge.
+
+17. RDS Multi-AZ deployments’ main purpose is high availability, while RDS Read replicas’ main purpose is scalability.
+
+- True ===> Correct One.
+
+            NOTE: RDS Multi-AZ deployments’ main purpose is high availability, and RDS Read replicas’ main purpose is scalability. Moreover, Multi-Region deployments’ main purpose is disaster recovery and local performance.
+
+- False
