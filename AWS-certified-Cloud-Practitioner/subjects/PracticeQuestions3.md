@@ -128,3 +128,82 @@
             NOTE: CloudFormation and Elastic Beanstalk are free of use, but you do pay for the resources created.
 
 - False
+
+# **LEVERAGING THE AWS GLOBAL INFRASTRUCTURE**
+
+1. Which Route 53 Routing Policies would you use to route traffic to multiple resources that you specify?
+
+- Simple Routing Policy.
+- Weighted Routing Policy. ===> Correct One.
+
+            NOTE: Weighted Routing Policy is used to route traffic to multiple resources in proportions that you specify.
+
+- Latency Routing Policy.
+- Failover Routing Policy.
+
+2. Which service is optimized to deploy ultra-low latency applications to 5G devices?
+
+- WaveLength ===> Correct One.
+
+            NOTE: AWS WaveLength is an AWS Infrastructure offering optimized for mobile edge computing applications. Wavelength combines the high bandwidth and ultra-low latency of 5G networks with AWS compute and storage services to enable developers to innovate and build a whole new class of applications.
+
+- Route 53
+- CloudFront
+
+3. You need to enable fast, easy, and secure transfers of files over long distances on S3. Which service would you use ?
+
+- AWS Global Accelerator.
+- S3 Transfer Acceleration. ===> Correct One.
+
+            NOTE: Amazon S3 Transfer Acceleration enabkes fast, easy and secure transfers of files over long distances betweeen your client and an S3 bucket. Transfer Acceleration takes advantage of Amazon CloudFront's globally optimized network path.
+
+- S3 Cross-Region Replication.
+
+4. What does AWS CloudFront use to improve read performance?
+
+- DDoS Protection.
+- S3 Buckets Fast-Read.
+- Caching Content in Edge Locations. ===> Correct One.
+
+            NOTE: CloudFront uses Edge Location to cache content, and therefore bring more of your content closer to your viewers to improve read performance.
+
+- Caching Content in Edge Regions.
+
+5. Which service can be used to run AWS infrastructure and services on-premises for an hybrid cloud architecture?
+
+- CloudFront
+- OutPosts ===> Correct One.
+
+            NOTE: AWS Outposts bring native AWS Services, infrastructure and operating models to virtually any data center, co-location space, or on-premises facility.
+
+- DMS
+- Storage Gateway
+
+6. Which of the following statements is NOT a reason for a global application?
+
+- Decreased Latency.
+- Disaster Recovery.
+- Scale Elastically On Demand. ===> Correct One.
+
+            NOTE: A global application is not specifically used to scale elastically on demand. You can use Auto Scaling Groups for example if you want to elastically scale based on demand.
+
+- Attack Protection.
+
+7. Which features are available with Route53?
+
+- Health Checks, Auto Scaling, Routing Polocy, DNS.
+- Load Balancing, DNS, Domain Registration, Monitoring.
+- Domain Registration, DNS, Health Checks, DDoS Protection.
+- Domain Registration, DNS, Health Checks, Routing Policy. ===> Correct One.
+
+            NOTE: Route 53 features are (Non exhaustive list) : Domain Registration, DNS, Health Checks, Routing Policy.
+
+8. With which services does CloudFront integra to protect against web attacks?
+
+- WAF & SHIELD ===> Correct One.
+
+            NOTE: You can use AWS WAF web access control lists (web ACLs) to help minimize the effects of a distributed denial of service (DDoS) attack. For additional protection against DDoS attacks, AWS also provides AWS Shield Stardard and AWS Shield Advanced.
+
+- WAF & IAM
+- IAM & SHIELD
+- SECURITY GROUPS & WAF
